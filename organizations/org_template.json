@@ -1,0 +1,110 @@
+{
+
+ 	"@context": {
+        "@vocab": "http://schema.org/",
+        "gdx": "https://geodex.org/voc/",
+        "datacite": "http://purl.org/spar/datacite/",
+        "geolink": "http://schema.geolink.org/1.0/base/main#",
+        "re3data": "http://example.org/re3data/0.1/",
+        "ecrwg": "http://example.org/ecrwg/0.1/"
+    },
+
+	"@type": ["Service", "Organization", "WebSite", "WebPage"],
+	"@id": "[DOI URL | URL]",
+	
+	"legalName": "[FULL NAME]",
+    "name": "[COMMON NAME]",
+    "url": "[URL]",
+	"description": "[DESCRIPTION]",
+	"category": ["[DOMAIN ONE]", "[DOMAIN TWO]"],
+
+	"sameAs": [
+        "[ADDITIONAL LINK ONE]",
+        "[ADDITIONAL LINK TWO]"
+    ],
+
+	"contactPoint": {
+        "@type": "ContactPoint",
+        "@id": "[CONTACT URL]",
+        "name": "[CONTACT LABEL]",
+        "email": "[CONTACT EMAIL]",
+        "url": "[CONTACT URL]",
+        "contactType": "[CONTACT TYPE]"
+    },
+    
+     "address": {
+      "@type": "PostalAddress",
+      	"streetAddress": "[STREET ADDRESS]",
+         "addressLocality": "[CITY]",
+         "addressRegion": "[STATE]",
+         "postalCode": "[ZIP CODE]",
+         "addressCountry": "[COUNTRY]"
+    },
+    
+    "foundingDate": "[DATE OF INCEPTION]",
+    
+    "logo": {
+        "@type": "ImageObject",
+        "url": "[LOGO URL]"
+     },
+
+	"parentOrganization": {
+        "@type": "Organization",
+        "@id": "[PARENT URL | PARENT DOI URL]",
+        "legalName": "[PARENT FULL NAME]",
+        "name": "[PARENT COMMON NAME]",
+        "url": "[PARENT URL]",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "[STREET ADDRESS]",
+            "addressLocality": "[CITY]",
+            "addressRegion": "[STATE]",
+            "postalCode": "[ZIP CODE]",
+            "addressCountry": "[COUNTRY]"
+        }
+    	 },
+    
+     "memberOf": {
+        "@type": "ProgramMembership",
+        "programName": "[PROGRAM NAME]",
+        "hostingOrganization": {
+            "@type": "Organization",
+            "name": "RE3Data",
+            "url": "http://www.re3data.org"
+        }
+   	 },
+  
+    
+     "funder": {
+        "@type": "Organization",
+        "@id": "[FUNDER URL | FUNDER DOI URL]",
+        "legalName": "[FUNDER FULL NAME]",
+        "name": "[FUNDER COMMON NAME]",
+        "url": "[FUNDER URL]",
+        "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "http://purl.org/spar/datacite/doi",
+            "value": "[FUNDER DOI]",
+            "url": "[FUNDER DOI URL]"
+        },
+    
+     "publishingPrinciples": [
+        {
+            "@type": "DigitalDocument",
+            "additionalType": "https://geodex.org/voc/Protocol-TermsOfUse",
+            "name": "Terms of Use",
+            "url": "https://help.hydroshare.org/about-hydroshare/policies/terms-of-use/",
+            "fileFormat": "text/html"
+        },
+        {
+            "@type": "DigitalDocument",
+            "additionalType": "https://geodex.org/voc/Protocol-ResourceSubmissionPolicy",
+            "name": "HydroShare Publication Agreement",
+            "url": "https://help.hydroshare.org/about-hydroshare/policies/hydroshare-publication-agreement/",
+            "fileFormat": "text/html"
+        }
+    ]
+    
+    }
+
+}

@@ -1,0 +1,17 @@
+{
+
+ 	"@context": {
+  		"@vocab": "http://schema.org/",
+  		"re3data": "http://example.org/re3data/0.1/",
+  		"earthcollab": "https://library.ucar.edu/earthcollab/schema#",
+		"geolink": "http://schema.geolink.org/1.0/base/main#",
+		"geolink-vocab":"http://schema.geolink.org/1.0/voc/local#",
+		"vivo": "http://vivoweb.org/ontology/core#",
+        "dcat":"http://www.w3.org/ns/dcat#",
+        "dbpedia": "http://dbpedia.org/resource/",
+    		"geo-upper": "http://www.geoscienceontology.org/geo-upper#"
+ 	},
+ 	
+ 	"@type": "Dataset"
+
+}
