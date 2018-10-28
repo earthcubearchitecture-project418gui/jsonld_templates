@@ -47,7 +47,11 @@
      },
     
     "publisher": {
-        "@id": "https://www.hydroshare.org"
+    		"@id": "[PUBLISHER URL, EXAMPLE: https://csdco.umn.edu/]", 
+        "@type": "Organization",
+  		"description": "[PUBLISHER DESCRIPTION, EXAMPLE: Continental Scientific Drilling Coordination Office]",
+  		"name": "[PUBLISHER COMMON NAME, EXAMPLE: CSDCO]",
+  		"url": "[PUBLISHER URL, EXAMPLE: https://csdco.umn.edu/]"
      },
     
     "creator": {
@@ -87,8 +91,8 @@
 		"name": "[NAME OF PLACE, EXAMPLE: Falling Water Falls [3PP40] vertebrate fauna dataset]",
   		"geo": {
 			"@type": "GeoShape",
-			"box": "[-149.8727,-17.45 -64.6353,34.407",
-			"polygon": "-149.8727,-17.45 -149.8727,34.407 -64.6353,34.407 -64.6353,-17.45 -149.8727,-17.45"
+			"box": "[BOUNDING BOX, EXAMPLE: -149.8727,-17.45 -64.6353,34.407]",
+			"polygon": "[POLYGON VERTICES, EXAMPLE: -149.8727,-17.45 -149.8727,34.407 -64.6353,34.407 -64.6353,-17.45 -149.8727,-17.45]"
     		}
 	}],
 	
@@ -101,7 +105,7 @@
 		"url": "[URL DESCRIBING PARAMETER, EXAMPLE: https://www.bco-dmo.org/dataset-parameter/665789]"
 	},
 	
-	"measurementTechnique":"Shimadzu TOC-V Analyzer"
+	"measurementTechnique":"[MEASUREMENT TECHNIQUE, EXAMPLE: Shimadzu TOC-V Analyzer]"
 
 	
 
