@@ -38,20 +38,20 @@
      },
 	    
 	 "provider": {
-        "@id": "[PROVIDER URL, EXAMPLE: https://www.hydroshare.org]",
+        "@id": "[PROVIDER URL, EXAMPLE: https://www.hydroshare.org | PROVIDER DOI URL, EXAMPLE: ]",
         "@type": "Organization",
         "additionalType": "http://schema.geolink.org/1.0/base/main#Organization",
         "legalName": "[FULL NAME, EXAMPLE: Biological and Chemical Data Management Office]",
     		"name": "[COMMON NAME, EXAMPLE: BCO-DMO]",
-        "url": "[PROVIDER URL, EXAMPLE: https://www.hydroshare.org]"
+        "url": "[PROVIDER URL, EXAMPLE: https://www.hydroshare.org | PROVIDER DOI URL, EXAMPLE: ]"
      },
     
     "publisher": {
-    		"@id": "[PUBLISHER URL, EXAMPLE: https://csdco.umn.edu/]", 
+    		"@id": "[PUBLISHER URL, EXAMPLE: https://csdco.umn.edu/ | PUBLISHER DOI URL, EXAMPLE: ]", 
         "@type": "Organization",
   		"description": "[PUBLISHER DESCRIPTION, EXAMPLE: Continental Scientific Drilling Coordination Office]",
   		"name": "[PUBLISHER COMMON NAME, EXAMPLE: CSDCO]",
-  		"url": "[PUBLISHER URL, EXAMPLE: https://csdco.umn.edu/]"
+  		"url": "[PUBLISHER URL, EXAMPLE: https://csdco.umn.edu/ | PUBLISHER DOI URL, EXAMPLE:  ]"
      },
     
     "creator": {
